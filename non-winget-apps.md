@@ -1,28 +1,39 @@
 # Non-Winget Apps
+
 Please devs make it easy to download muh apps 🫠
 
-### Games and Mods
-[XIVAlexander](https://github.com/Soreepeong/XivAlexander)  
-[FFLogs Uploader](https://www.fflogs.com/client/download)  
-[Advanced Combat Tracker](https://advancedcombattracker.com/download.php)  
-[FFXIV TexTools](https://www.ffxiv-textools.net/)  
-[Immerse Gamepack](https://evr-product-releases.s3.amazonaws.com/squareenix/immerse-gamepack/final-fantasy-xiv/latest/Immerse%20Gamepack%20FINAL%20FANTASY%20XIV%20Edition%20Installer%20x64.exe)  
-[Battle.net](https://www.blizzard.com/es-es/download/confirmation?product=bnetdesk)    
+## Games and Mods
 
-### Utilities and Hardware drivers
-[EVGA Precision X1](https://www.evga.com/precisionx1/)  
-[Focusrite Control](https://downloads.focusrite.com/focusrite/scarlett-3rd-gen/scarlett-solo-3rd-gen)  
-[PCPanel](https://www.getpcpanel.com/download)  
-[Topping DAC](https://www.topping.audio/filedownload/88414)
- 
-### Tools and Productivity
-[Arq Backup](https://www.arqbackup.com/download/)  
-[Microsoft Office](http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/es-es/ProPlus2021Retail.img)  
+### [XIVAlexander](https://github.com/Soreepeong/XivAlexander)
 
-### Other software  
-[Chatterino7](https://github.com/SevenTV/chatterino7/releases)  
-[MobaXterm](#yaharr)  
-[Apple Music MSIXBUNDLE option](https://store.rg-adguard.net/): search this link in the webapp and download the .msixbundle file:
-```
-https://apps.microsoft.com/store/detail/versi%C3%B3n-preliminar-de-la-app-apple-music/9PFHDD62MXS1
-```
+### [FFLogs Uploader](https://www.fflogs.com/client/download)
+
+### [Advanced Combat Tracker](https://advancedcombattracker.com/download.php)
+
+### [FFXIV TexTools](https://www.ffxiv-textools.net/)
+
+### [Immerse Gamepack](https://evr-product-releases.s3.amazonaws.com/squareenix/immerse-gamepack/final-fantasy-xiv/latest/Immerse%20Gamepack%20FINAL%20FANTASY%20XIV%20Edition%20Installer%20x64.exe)
+
+### [Battle.net](https://www.blizzard.com/es-es/download/confirmation?product=bnetdesk)
+
+## Utilities and Hardware drivers
+
+### [EVGA Precision X1](https://www.evga.com/precisionx1/)
+
+### [Focusrite Control](https://downloads.focusrite.com/focusrite/scarlett-3rd-gen/scarlett-solo-3rd-gen)
+
+### [PCPanel](https://www.getpcpanel.com/download)
+
+### [Topping DAC](https://www.topping.audio/filedownload/88414)
+
+## Tools and Productivity
+
+### [Arq Backup](https://www.arqbackup.com/download/)
+
+### [Microsoft Office](http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/es-es/ProPlus2021Retail.img)  
+
+## Other software
+
+### [Chatterino7](https://github.com/SevenTV/chatterino7/releases)
+
+### [MobaXterm](#localcopy)

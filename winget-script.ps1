@@ -29,6 +29,7 @@ winget install --id=Debian.Debian -e  ;
 winget install --id=Canonical.Ubuntu -e  ;
 winget install --id=9P3395VX91NR -e --accept-package-agreements ## msstore Windows Subsystem for Android
 ### Media Apps ###
+winget install --id=9PFHDD62MXS1 -e --accept-package-agreements ; ## msstore Apple Music Preview
 winget install --id=VideoLAN.VLC -e  ; ## Maybe a slow download 
 winget install --id=TIDALMusicAS.TIDAL -e  ;
 winget install --id=CiderCollective.Cider -e  ;
@@ -46,6 +47,7 @@ winget install --id=AnyDeskSoftwareGmbH.AnyDesk -e  ;
 winget install --id=Microsoft.Teams -e  ;
 winget install --id=GlavSoft.TightVNC -e  ;  ## Slow download
 ### Tool Apps ###
+winget install --id=Gyan.FFmpeg -e  ;
 winget install --id=M2Team.NanaZip -e  ;
 winget install --id=bozbez.WinCaptureAudio.beta -e  ;
 winget install --id=REALiX.HWiNFO -e  ;
