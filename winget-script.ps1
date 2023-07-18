@@ -5,7 +5,6 @@ winget install --id=Microsoft.DotNet.DesktopRuntime.6 -e  ;
 winget install --id=Nvidia.GeForceExperience -e  ;
 ### Games and Launchers ###
 winget install --id=Ubisoft.Connect -e  ;
-winget install --id=PerfectWorld.TowerOfFantasy -e  ;
 winget install --id=Valve.Steam -e  ;
 winget install --id=Amazon.Games -e  ;
 winget install --id=EpicGames.EpicGamesLauncher -e  ;
@@ -56,6 +55,8 @@ winget install --id=WinDirStat.WinDirStat -e  ;
 winget install --id=AppWork.JDownloader -e  ;
 winget install --id=OBSProject.OBSStudio -e  ;
 winget install --id=CrystalDewWorld.CrystalDiskInfo -e  ;
+winget install --id=Mp3tag.Mp3tag -e  ;
+Bin-Huang.Chatbox
 ### Windows QoL Apps ###
 winget install --id=ModernFlyouts.ModernFlyouts -e  ;
 winget install --id=Microsoft.PowerToys -e  ;
@@ -71,7 +72,6 @@ winget install --id=VladimirYakovlev.ElectronMail -e  ;
 winget install --id=Brave.Brave -e  ;
 winget install --id=Mozilla.Firefox -e  ;
 winget install --id=qBittorrent.qBittorrent -e  ;
-winget install --id=Bitwarden.Bitwarden -e  ;
 winget install --id=AgileBits.1Password -e  ;
 ### VPN and Networking Apps ###
 winget install --id=Cloudflare.cloudflared -e  ;
