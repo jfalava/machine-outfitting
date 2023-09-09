@@ -24,9 +24,8 @@ winget install --id=Git.Git -e  ;
 winget install --id=Github.GithubDesktop -e  ;
 ### Sys Apps ###
 winget install --id=Microsoft.PowerShell -e  ;
-winget install --id=Debian.Debian -e  ;
-winget install --id=Canonical.Ubuntu -e  ;
 winget install --id=9P3395VX91NR -e --accept-package-agreements ## msstore Windows Subsystem for Android
+winget install --id=9P9TQF7MRM4R -e --accept-package-agreements ## msstore Windows Subsystem for Linux
 ### Media Apps ###
 winget install --id=9PFHDD62MXS1 -e --accept-package-agreements ; ## msstore Apple Music Preview
 winget install --id=VideoLAN.VLC -e  ; ## Maybe a slow download 
@@ -43,7 +42,6 @@ winget install --id=9NC73MJWHSWW -e --accept-package-agreements ; ## msstore Syn
 ### WorkFromHome Apps ###
 winget install --id=AnyDeskSoftwareGmbH.AnyDesk -e  ;
 winget install --id=Microsoft.Teams -e  ;
-winget install --id=GlavSoft.TightVNC -e  ;  ## Slow download
 ### Tool Apps ###
 winget install --id=Gyan.FFmpeg -e  ;
 winget install --id=M2Team.NanaZip -e  ;
@@ -60,7 +58,6 @@ Bin-Huang.Chatbox
 ### Windows QoL Apps ###
 winget install --id=ModernFlyouts.ModernFlyouts -e  ;
 winget install --id=Microsoft.PowerToys -e  ;
-winget install --id=9NV4BS3L1H4S -e --accept-package-agreements ; ## msstore QuickLook
 winget install --id=xanderfrangos.twinkletray -e  ;
 ### Peripherals Apps ###
 winget install --id=SteelSeries.GG -e  ;
@@ -70,11 +67,10 @@ winget install --id=ProtonTechnologies.ProtonMailBridge -e  ;
 winget install --id=Cisco.CiscoWebexMeetings -e  ;
 winget install --id=VladimirYakovlev.ElectronMail -e  ;
 winget install --id=Brave.Brave -e  ;
-winget install --id=Mozilla.Firefox -e  ;
+winget install --id=LibreWolf.LibreWolf -e  ;
 winget install --id=qBittorrent.qBittorrent -e  ;
 winget install --id=AgileBits.1Password -e  ;
 ### VPN and Networking Apps ###
-winget install --id=Cloudflare.cloudflared -e  ;
 winget install --id=NordVPN.NordVPN -e  ;
 winget install --id=ProtonTechnologies.ProtonVPN -e  ;
 winget install --id=Fortinet.FortiClientVPN -e  ;
