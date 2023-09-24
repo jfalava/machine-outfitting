@@ -57,7 +57,7 @@ winget install --id=AppWork.JDownloader -e  ;
 winget install --id=OBSProject.OBSStudio -e  ;
 winget install --id=CrystalDewWorld.CrystalDiskInfo -e  ;
 winget install --id=Mp3tag.Mp3tag -e  ;
-Bin-Huang.Chatbox
+winget install --id=Bin-Huang.Chatbox -e  ;
 ### Windows QoL Apps ###
 winget install --id=ModernFlyouts.ModernFlyouts -e  ;
 winget install --id=Microsoft.PowerToys -e  ;
