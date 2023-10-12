@@ -32,8 +32,7 @@ winget install --id=9P3395VX91NR -e --accept-package-agreements ## msstore Windo
 wsl --set-default-version 2
 ### Media Apps ###
 winget install --id=9PFHDD62MXS1 -e --accept-package-agreements ; ## msstore Apple Music Preview
-winget install --id=VideoLAN.VLC -e  ; ## Maybe a slow download 
-winget install --id=TIDALMusicAS.TIDAL -e  ;
+winget install --id=VideoLAN.VLC -e  ; ## Maybe a slow download
 ### SNS Apps ###
 winget install --id=9NKSQGP7F2NH -e --accept-package-agreements ; ## msstore UWP WhatsApp
 winget install --id=XPDC2RH70K22MN -e --accept-package-agreements ; ## msstore Discord
