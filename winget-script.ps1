@@ -37,6 +37,7 @@ winget install --id=TIDALMusicAS.TIDAL -e  ;
 ### SNS Apps ###
 winget install --id=9NKSQGP7F2NH -e --accept-package-agreements ; ## msstore UWP WhatsApp
 winget install --id=XPDC2RH70K22MN -e --accept-package-agreements ; ## msstore Discord
+winget install --id=Discord.Discord.Canary -e  ;
 winget install --id=Telegram.TelegramDesktop -e  ;
 winget install --id=OpenWhisperSystems.Signal -e  ;
 ### Backup Apps ###
