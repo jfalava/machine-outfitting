@@ -5,6 +5,7 @@ winget install --id=Microsoft.DotNet.DesktopRuntime.6 -e  ;
 winget install --id=Microsoft.VCRedist.2012.x64 -e  ;
 winget install --id=Microsoft.VCRedist.2015+.x64 -e  ;
 winget install --id=Nvidia.GeForceExperience -e  ;
+winget install --id=Microsoft.EdgeWebView2Runtime -e  ;
 ### Games and Launchers ###
 winget install --id=Ubisoft.Connect -e  ;
 winget install --id=Valve.Steam -e  ;

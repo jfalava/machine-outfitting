@@ -6,6 +6,10 @@ Please devs make it easy to download muh apps 🫠
 
 ### [XIVAlexander](https://github.com/Soreepeong/XivAlexander)
 
+```txt
+-a load
+```
+
 ### [FFLogs Uploader](https://www.fflogs.com/client/download)
 
 ### [Advanced Combat Tracker](https://advancedcombattracker.com/download.php)
@@ -35,5 +39,3 @@ Please devs make it easy to download muh apps 🫠
 ## Other software
 
 ### [Chatterino7](https://github.com/SevenTV/chatterino7/releases)
-
-### [MobaXterm](#localcopy)
