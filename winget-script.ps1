@@ -76,6 +76,7 @@ winget install --id=Brave.Brave -e  ;
 winget install --id=LibreWolf.LibreWolf -e  ;
 winget install --id=qBittorrent.qBittorrent -e  ;
 winget install --id=AgileBits.1Password -e  ;
+winget install --id=AgileBits.1Password.CLI -e  ;
 ### VPN and Networking Apps ###
 winget install --id=NordVPN.NordVPN -e  ;
 winget install --id=ProtonTechnologies.ProtonVPN -e  ;
