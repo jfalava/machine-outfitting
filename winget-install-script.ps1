@@ -24,7 +24,8 @@ winget install --id=GnuPG.Gpg4win -e  ;
 winget install --id=Python.Python.3.10 -e  ;
 winget install --id=Docker.DockerDesktop -e  ;
 winget install --id=Keybase.Keybase -e  ;
-winget install --id=VSCodium.VSCodium -e  ; # fuck ms, all the homies hate telemetry
+# winget install --id=Microsoft.VisualStudioCode -e  ;
+winget install --id=VSCodium.VSCodium -e  ; # fuck telemetry, all my homies hate telemetry
 winget install --id=Git.Git -e  ;
 winget install --id=Github.GithubDesktop -e  ;
 ### Sys Apps ###
@@ -35,6 +36,7 @@ wsl --set-default-version 2
 ### Media Apps ###
 winget install --id=9PFHDD62MXS1 -e --accept-package-agreements ; ## msstore Apple Music Preview
 winget install --id=VideoLAN.VLC -e  ; ## Maybe a slow download
+winget install --id=SevenTV.Chatterino7 -e  ;
 ### SNS Apps ###
 winget install --id=9NKSQGP7F2NH -e --accept-package-agreements ; ## msstore UWP WhatsApp
 winget install --id=XPDC2RH70K22MN -e --accept-package-agreements ; ## msstore Discord
@@ -70,12 +72,13 @@ winget install --id=SteelSeries.GG -e  ;
 winget install --id=Logitech.OptionsPlus -e  ;
 winget install --id=Logitech.GHUB -e  ;
 ### Internet Apps ###
-# winget install --id=ProtonTechnologies.ProtonMailBridge -e  ;
+winget install --id=ProtonTechnologies.ProtonMailBridge -e  ;
 winget install --id=Proton.ProtonDrive -e  ;
-winget install --id=VladimirYakovlev.ElectronMail -e  ;
+# winget install --id=VladimirYakovlev.ElectronMail -e  ; # it kinda sucks, but...
 winget install --id=Cisco.CiscoWebexMeetings -e  ;
 winget install --id=Brave.Brave -e  ;
 winget install --id=LibreWolf.LibreWolf -e  ;
+winget install --id=Mozilla.Firefox -e  ;
 winget install --id=qBittorrent.qBittorrent -e  ;
 winget install --id=AgileBits.1Password -e  ;
 winget install --id=AgileBits.1Password.CLI -e  ;
