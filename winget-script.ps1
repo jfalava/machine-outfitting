@@ -16,13 +16,15 @@ winget install --id=ElectronicArts.EADesktop -e  ;
 winget install --id=Blitz.Blitz -e  ;
 winget install --id=goatcorp.XIVLauncher -e  ;
 winget install --id=WowUp.Wowup -e ;
+winget install --id=NexusMods.Vortex -e ;
 ### Dev Apps ###
 winget install --id=GnuPG.GnuPG -e  ;
+winget install --id=Microsoft.DevHome -e  ;
 winget install --id=GnuPG.Gpg4win -e  ;
 winget install --id=Python.Python.3.10 -e  ;
 winget install --id=Docker.DockerDesktop -e  ;
 winget install --id=Keybase.Keybase -e  ;
-winget install --id=Microsoft.VisualStudioCode -e  ;
+winget install --id=VSCodium.VSCodium -e  ; # fuck ms, all the homies hate telemetry
 winget install --id=Git.Git -e  ;
 winget install --id=Github.GithubDesktop -e  ;
 ### Sys Apps ###
