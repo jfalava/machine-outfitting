@@ -24,8 +24,7 @@ winget install --id=GnuPG.Gpg4win -e  ;
 winget install --id=Python.Python.3.10 -e  ;
 winget install --id=Docker.DockerDesktop -e  ;
 winget install --id=Keybase.Keybase -e  ;
-# winget install --id=Microsoft.VisualStudioCode -e  ;
-winget install --id=VSCodium.VSCodium -e  ; # fuck telemetry, all my homies hate telemetry
+winget install --id=Microsoft.VisualStudioCode -e  ;
 winget install --id=Git.Git -e  ;
 winget install --id=Github.GithubDesktop -e  ;
 ### Sys Apps ###
