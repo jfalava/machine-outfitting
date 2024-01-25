@@ -31,7 +31,7 @@ winget install --id=Github.GithubDesktop -e  ;
 winget install --id=Microsoft.PowerShell -e  ;
 winget install --id=9P9TQF7MRM4R -e --accept-package-agreements ## msstore Windows Subsystem for Linux
 winget install --id=9P3395VX91NR -e --accept-package-agreements ## msstore Windows Subsystem for Android
-wsl --set-default-version 2
+winget install --id=Debian.Debian -e --accept-package-agreements
 ### Media Apps ###
 winget install --id=9PFHDD62MXS1 -e --accept-package-agreements ; ## msstore Apple Music Preview
 winget install --id=VideoLAN.VLC -e  ; ## Maybe a slow download
@@ -85,3 +85,6 @@ winget install --id=AgileBits.1Password.CLI -e  ;
 winget install --id=NordVPN.NordVPN -e  ;
 winget install --id=ProtonTechnologies.ProtonVPN -e  ;
 winget install --id=Fortinet.FortiClientVPN -e  ;
+### Extra Setup Commands ###
+wsl --set-default-version 2
+wsl --set-default Debian

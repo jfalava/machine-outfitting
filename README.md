@@ -7,13 +7,17 @@ You need [winget](https://github.com/microsoft/winget-cli/) for this script to b
 ## How to run
 
 Check out with the PowerShell command `Get-ExecutionPolicy` if you can execute PowerShell scripts.  
-You can give yourself permissions to do so with the command `Set-ExecutionPolicy -ExecutionPolicy Bypass -File winget-install-script.ps1`.  
 
-You can either execute the script via cli with `.\route\to\script\winget-script.ps1` or by right clicking the file and selecting `Execute with Powershell` if you have lighter restrictions on script execution (as administrator, `Set-ExecutionPolicy Unrestricted`).  
+>💡Always use caution when running your command prompt as an administrator, and only install applications you trust.  
 
-You may launch the script with elevated permissions if you don't want to check elevation prompts. If you don't, make sure you check your taskbar, as the prompt will remain in it waiting for your attention.
+>💡You may launch the script with elevated permissions if you don't want to check elevation prompts.  
 
-> 💡Always use caution when running your command prompt as an administrator, and only install applications you trust.  
+>💡If you don't, make sure you check your taskbar, as the prompt will remain in it waiting for your attention.
+
+You can either execute this script by:  
+
+1. Opening a PowerShell terminal, navigating to the script folder with `cd \route\to\script\`, executing `Set-ExecutionPolicy -ExecutionPolicy Bypass -File winget-install-script.ps1` to allow the execution of the install script once and then by executing `.\route\to\script\winget-script.ps1`
+2. By right clicking the file and selecting `Execute with Powershell` if you have lighter restrictions on script execution (as administrator in a PowerShell terminal, execute `Set-ExecutionPolicy Unrestricted`).  
 
 ## Leveraging the `winget list` output
 
