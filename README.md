@@ -16,7 +16,7 @@ Check out with the PowerShell command `Get-ExecutionPolicy` if you can execute P
 
 You can either execute this script by:  
 
-1. Opening a PowerShell terminal, navigating to the script folder with `cd \route\to\script\`, executing `Set-ExecutionPolicy -ExecutionPolicy Bypass -File winget-install-script.ps1` to allow the execution of the install script once and then by executing `.\route\to\script\winget-script.ps1`
+1. Opening a PowerShell terminal, navigating to the script folder with `cd \route\to\script\`, executing `Set-ExecutionPolicy -ExecutionPolicy Bypass -File winget-install-script.ps1` to allow the execution of the install script once and then by executing `.\winget-script.ps1`
 2. By right clicking the file and selecting `Execute with Powershell` if you have lighter restrictions on script execution (as administrator in a PowerShell terminal, execute `Set-ExecutionPolicy Unrestricted`).  
 
 ## Leveraging the `winget list` output
