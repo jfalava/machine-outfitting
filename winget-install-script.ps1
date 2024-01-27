@@ -85,4 +85,4 @@ winget install --id=ProtonTechnologies.ProtonVPN -e  ;
 winget install --id=Fortinet.FortiClientVPN -e  ;
 ### Extra Setup Commands ###
 wsl --set-default-version 2
-wsl --set-default Debian
+wsl --set-default Ubuntu
