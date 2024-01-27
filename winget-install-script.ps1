@@ -71,12 +71,9 @@ winget install --id=SteelSeries.GG -e  ;
 winget install --id=Logitech.OptionsPlus -e  ;
 winget install --id=Logitech.GHUB -e  ;
 ### Internet Apps ###
-winget install --id=ProtonTechnologies.ProtonMailBridge -e  ;
 winget install --id=Proton.ProtonDrive -e  ;
-# winget install --id=VladimirYakovlev.ElectronMail -e  ; # it kinda sucks, but...
 winget install --id=Cisco.CiscoWebexMeetings -e  ;
 winget install --id=Brave.Brave -e  ;
-winget install --id=LibreWolf.LibreWolf -e  ;
 winget install --id=Mozilla.Firefox -e  ;
 winget install --id=qBittorrent.qBittorrent -e  ;
 winget install --id=AgileBits.1Password -e  ;
