@@ -42,7 +42,7 @@ foreach ($package in $installedPackages) {
 }
 
 # Define the path for the new install script
-$installScriptPath = "winget-install-script.ps1"
+$installScriptPath = "wingetListOutput-installScript.ps1"
 
 # Check if there are any install commands to write to the script
 if ($installScriptContent) {

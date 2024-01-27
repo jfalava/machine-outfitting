@@ -32,6 +32,7 @@ winget install --id=Microsoft.PowerShell -e  ;
 winget install --id=9P9TQF7MRM4R -e --accept-package-agreements ## msstore Windows Subsystem for Linux
 winget install --id=9P3395VX91NR -e --accept-package-agreements ## msstore Windows Subsystem for Android
 winget install --id=Debian.Debian -e --accept-package-agreements
+winget install --id=9PDXGNCFSCZV  -e --accept-package-agreements ## msstore Canonical Ubuntu LTS
 ### Media Apps ###
 winget install --id=9PFHDD62MXS1 -e --accept-package-agreements ; ## msstore Apple Music Preview
 winget install --id=VideoLAN.VLC -e  ; ## Maybe a slow download
@@ -55,7 +56,7 @@ winget install --id=M2Team.NanaZip -e  ;
 winget install --id=bozbez.WinCaptureAudio.beta -e  ;
 winget install --id=REALiX.HWiNFO -e  ;
 winget install --id=Nota.Gyazo -e  ;
-winget install --id=Adobe.Acrobat.Reader.64-bit -e  ;
+winget install --id=SumatraPDF.SumatraPDF -e  ;
 winget install --id=WinDirStat.WinDirStat -e  ;
 winget install --id=AppWork.JDownloader -e  ;
 winget install --id=OBSProject.OBSStudio -e  ;
