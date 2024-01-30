@@ -1,8 +1,8 @@
-# Winget script for Windows 11 gaming machine
+# Machine Outfitting
 
-Ninite is overrated and everyone loves a one click install amirite.
+The one stop for setting up my Windows 11 machine cuz Ninite is overrated and everyone loves a one click install amirite.
 
-You need [winget](https://github.com/microsoft/winget-cli/) for this script to be recognized by your PowerShell terminal.
+You need [winget](https://github.com/microsoft/winget-cli/) for the installation scripts to be recognized by your PowerShell terminal.
 
 ## How to run
 
@@ -25,7 +25,7 @@ You can take note of what apps you have installed that are available to be insta
 
 [This tool](create-winget-install-script.ps1) is a PowerShell script that creates another script by parsing your `winget list` output and creating a new script file with all the packages available to be installed with `winget` and executable as it is.  
 
-It might have some incorrect lines so do be careful and check the script before executing it.
+It might have some incorrect lines so do be careful and check the generated script before executing it.
 
 ## Notes
 
