@@ -23,7 +23,7 @@ You can either execute this script by:
 
 You can take note of what apps you have installed that are available to be installed with winget using `winget list`.  
 
-[This tool](create-winget-install-script.ps1) is a PowerShell script that creates another script by parsing your `winget list` output and creating a new script file with all the packages available to be installed with `winget` and executable as it is.  
+[This tool](https://gist.github.com/jfalava/7ed352478721bcf10ff3da1cae6a6623) is a PowerShell script that creates another script by parsing your `winget list` output and creating a new script file with all the packages available to be installed with `winget` and executable as it is. Also included in this repo.  
 
 It might have some incorrect lines so do be careful and check the generated script before executing it.
 
