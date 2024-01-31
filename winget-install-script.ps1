@@ -108,6 +108,7 @@ winget install --id=Mozilla.Firefox -e  ;
 winget install --id=qBittorrent.qBittorrent -e  ;
 winget install --id=AgileBits.1Password -e  ;
 winget install --id=AgileBits.1Password.CLI -e  ;
+winget install --id=VladimirYakovlev.ElectronMail -e  ; # The official Proton Mail app is this but a giant pile of dogshit. Hopes of a native client dashed.
 ###############################
 ### VPN and Networking Apps ###
 ###############################
