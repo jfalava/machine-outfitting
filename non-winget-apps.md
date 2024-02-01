@@ -36,4 +36,4 @@ Please devs make it easy to download muh apps 🫠
 
 ### [Microsoft Office](http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/es-es/ProPlus2021Retail.img)  
 
-## Other software
+### [Android SDK Platform Tools](https://developer.android.com/tools/releases/platform-tools)  
