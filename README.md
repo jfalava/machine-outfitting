@@ -8,11 +8,11 @@ You need [winget](https://github.com/microsoft/winget-cli/) for the installation
 
 Check out with the PowerShell command `Get-ExecutionPolicy` if you can execute PowerShell scripts.  
 
->💡Always use caution when running your command prompt as an administrator, and only install applications you trust.  
+💡Always use caution when running your command prompt as an administrator, and only install applications you trust.  
 
->💡You may launch the script with elevated permissions if you don't want to check elevation prompts.  
+💡You may launch the script with elevated permissions if you don't want to check elevation prompts.  
 
->💡If you don't, make sure you check your taskbar, as the prompt will remain in it waiting for your attention.
+💡If you don't, make sure you check your taskbar, as the prompt will remain in it waiting for your attention.
 
 You can either execute this script by:  
 
