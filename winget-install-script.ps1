@@ -92,6 +92,7 @@ winget install --id=Bin-Huang.Chatbox -e  ;
 winget install --id=ModernFlyouts.ModernFlyouts -e  ;
 winget install --id=Microsoft.PowerToys -e  ;
 winget install --id=xanderfrangos.twinkletray -e  ;
+winget install --id=BurntSushi.ripgrep.MSVC -e  ;
 ########################
 ### Peripherals Apps ###
 ########################
