@@ -2,15 +2,18 @@
 
 The one stop for setting up my Windows 11 machine cuz Ninite is overrated and everyone loves a one click install amirite.
 
-You need [winget](https://github.com/microsoft/winget-cli/) for the installation scripts to be recognized by your PowerShell terminal.
+You need [winget](https://github.com/microsoft/winget-cli/) for the installation scripts to be recognized by your PowerShell terminal.  
+You can download it from the [Microsoft Store](https://www.microsoft.com/store/productId/9NBLGGH4NNS1?ocid=pdpshare).
 
 ## How to run
 
 Check out with the PowerShell command `Get-ExecutionPolicy` if you can execute PowerShell scripts.  
 
-[!warning] Always use caution when running your command prompt as an administrator, and only install applications you trust.  
+> [!WARNING]
+> Always use caution when running your command prompt as an administrator, and only install applications you trust.  
 
-[!note] You may launch the script with elevated permissions if you don't want to check elevation prompts.
+> [!TIP]
+> You may launch the script with elevated permissions if you don't want to accept elevation prompts.
 If you don't, make sure you check your taskbar, as the prompt will remain in it waiting for your attention.
 
 You can either execute this script by:  
@@ -24,7 +27,8 @@ You can take note of what apps you have installed that are available to be insta
 
 [This tool](https://gist.github.com/jfalava/7ed352478721bcf10ff3da1cae6a6623) is a PowerShell script that creates another script by parsing your `winget list` output and creating a new script file with all the packages available to be installed with `winget` and executable as it is. Also included in this repo.  
 
-It might have some incorrect lines so do be careful and check the generated script before executing it.
+> [!IMPORTANT]
+> The generated file might have some incorrect lines (regex amirite) so do be careful and check the generated script before executing it.
 
 ## Notes
 
