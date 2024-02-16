@@ -13,10 +13,10 @@ winget install --id=Microsoft.EdgeWebView2Runtime -e  ;
 ###########################
 winget install --id=Ubisoft.Connect -e  ;
 winget install --id=Valve.Steam -e  ;
-winget install --id=Amazon.Games -e  ;
+winget install --id=Amazon.Games -e  ; # Sometimes returns bad hash
 winget install --id=EpicGames.EpicGamesLauncher -e  ;
 winget install --id=GOG.Galaxy -e  ;
-winget install --id=ElectronicArts.EADesktop -e  ;
+winget install --id=ElectronicArts.EADesktop -e  ; # Sometimes returns bad hash
 winget install --id=Blitz.Blitz -e  ;
 winget install --id=goatcorp.XIVLauncher -e  ;
 winget install --id=WowUp.Wowup -e ;
@@ -32,7 +32,6 @@ winget install --id=Microsoft.Git -e  ;
 ## PGP
 winget install --id=GnuPG.GnuPG -e  ;
 winget install --id=GnuPG.Gpg4win -e  ;
-winget install --id=Keybase.Keybase -e  ;
 ## Python
 winget install --id=Python.Python.3.10 -e  ;
 ## NodeJS
@@ -63,8 +62,8 @@ winget install --id=OpenWhisperSystems.Signal -e  ;
 ###################
 ### Backup Apps ###
 ###################
-winget install --id=Mega.MEGASync -e  ;
-winget install --id=9NC73MJWHSWW -e --accept-package-agreements ; ## msstore iCloud
+winget install --id=Mega.MEGASync -e  ; # Sometimes returns bad hash
+winget install --id=9PKTQ5699M62 -e --accept-package-agreements ; ## msstore iCloud
 winget install --id=9NC73MJWHSWW -e --accept-package-agreements ; ## msstore SyncFolder
 #########################
 ### WorkFromHome Apps ###
@@ -120,5 +119,4 @@ winget install --id=Fortinet.FortiClientVPN -e  ;
 ### Extra Setup Commands ###
 ############################
 wsl --set-default-version 2
-wsl --set-default Ubuntu
 Install-Module posh-git # oh-my-posh font install # Get-PoshThemes
