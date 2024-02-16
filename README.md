@@ -18,7 +18,7 @@ If you don't, make sure you check your taskbar, as the prompt will remain in it 
 
 You can either execute this script by:  
 
-1. A PowerShell terminal, navigating to the script folder with `cd \route\to\script\`, executing `Set-ExecutionPolicy -ExecutionPolicy Bypass -File winget-install-script.ps1` to allow the execution of the install script once and then by executing `.\winget-script.ps1`
+1. A PowerShell terminal, navigating to the script folder with `cd \route\to\script\`, executing `Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process` to allow the execution of the install script until you close the terminal
 1. Right clicking the file and selecting `Execute with Powershell` if you have lighter restrictions on script execution (as administrator in a PowerShell terminal, execute `Set-ExecutionPolicy Unrestricted`).  
 
 ## Leveraging the `winget list` output
