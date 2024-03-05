@@ -26,7 +26,8 @@ winget install --id=NexusMods.Vortex -e ;
 ################
 ## IDE and Version Control
 winget install --id=Microsoft.VisualStudioCode -e  ;
-winget install --id=JetBrains.WebStorm.EAP -e  ;
+winget install --id=JetBrains.Toolbox -e  ;
+winget install --id=Microsoft.DevHome -e  ;
 winget install --id=JanDeDobbeleer.OhMyPosh -s winget -e  ; # OhMyPosh PS themes
 winget install --id=Microsoft.Git -e  ;
 ## PGP
