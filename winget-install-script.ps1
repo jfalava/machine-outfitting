@@ -26,6 +26,8 @@ winget install --id=NexusMods.Vortex -e ;
 ################
 ## IDE and Version Control
 winget install --id=Microsoft.VisualStudioCode -e  ;
+#winget install --id=Microsoft.VisualStudio.2022.BuildTools -e  ;
+#winget install --id=Microsoft.WindowsSDK.10.0.22621 -e  ; ## Visual C++ Tools
 winget install --id=JetBrains.Toolbox -e  ;
 winget install --id=Microsoft.DevHome -e  ;
 winget install --id=JanDeDobbeleer.OhMyPosh -s winget -e  ; # OhMyPosh PS themes
