@@ -18,6 +18,11 @@ If you don't, make sure you check your taskbar, as the prompt will remain in it 
 
 You can either execute this script by:  
 
+>[!NOTE]
+>If this is your first time using `winget` you, for the script to work, need to accept its terms of service.  
+>You can do so by executing any command before executing this PowerShell script, like `winget list`.
+
+
 1. A PowerShell terminal, navigating to the script folder with `cd \route\to\script\`, executing `Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process` to allow the execution of the install script until you close the terminal
 1. Right clicking the file and selecting `Execute with Powershell` if you have lighter restrictions on script execution (as administrator in a PowerShell terminal, execute `Set-ExecutionPolicy Unrestricted`).  
 
