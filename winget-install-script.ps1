@@ -53,7 +53,7 @@ winget install --id=Docker.DockerDesktop -e  ;
 ##################
 winget install --id=9PFHDD62MXS1 -e --accept-package-agreements ; ## msstore Apple Music Preview
 winget install --id=VideoLAN.VLC -e  ; ## Maybe a slow download
-winget install --id=SevenTV.Chatterino7 -e  ;
+winget install --id=ChatterinoTeam.Chatterino -e  ;
 ################
 ### SNS Apps ###
 ################
@@ -105,7 +105,6 @@ winget install --id=Logitech.GHUB -e  ;
 ### Internet Apps ###
 #####################
 winget install --id=Proton.ProtonDrive -e  ;
-winget install --id=Cisco.CiscoWebexMeetings -e  ;
 winget install --id=Brave.Brave -e  ;
 winget install --id=Mozilla.Firefox -e  ;
 winget install --id=qBittorrent.qBittorrent -e  ;
