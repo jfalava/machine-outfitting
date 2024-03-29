@@ -8,6 +8,7 @@ winget install --id=Microsoft.VCRedist.2012.x64 -e  ;
 winget install --id=Microsoft.VCRedist.2015+.x64 -e  ;
 winget install --id=Nvidia.GeForceExperience -e  ;
 winget install --id=Microsoft.EdgeWebView2Runtime -e  ;
+winget install --id=Chocolatey.Chocolatey -e  ;
 ###########################
 ### Games and Launchers ###
 ###########################
@@ -24,12 +25,11 @@ winget install --id=NexusMods.Vortex -e ;
 ################
 ### Dev Apps ###
 ################
-## IDE and Version Control
+# IDE, LSPs, Compile Engines and Version Control Packages
 winget install --id=Microsoft.VisualStudioCode -e  ;
-#winget install --id=Microsoft.VisualStudio.2022.BuildTools -e  ;
-#winget install --id=Microsoft.WindowsSDK.10.0.22621 -e  ; ## Visual C++ Tools
+winget install --id=Microsoft.VisualStudio.2022.BuildTools -e  ;
+winget install --id=Kitware.CMake -e  ;
 winget install --id=JetBrains.Toolbox -e  ;
-winget install --id=Microsoft.DevHome -e  ;
 winget install --id=JanDeDobbeleer.OhMyPosh -s winget -e  ; # OhMyPosh PS themes
 winget install --id=Microsoft.Git -e  ;
 ## PGP
@@ -95,6 +95,8 @@ winget install --id=ModernFlyouts.ModernFlyouts -e  ;
 winget install --id=Microsoft.PowerToys -e  ;
 winget install --id=xanderfrangos.twinkletray -e  ;
 winget install --id=BurntSushi.ripgrep.MSVC -e  ;
+winget install --id=sharkdp.bat -e  ;
+winget install --id=ajeetdsouza.zoxide -e ;
 ########################
 ### Peripherals Apps ###
 ########################
@@ -110,15 +112,21 @@ winget install --id=Mozilla.Firefox -e  ;
 winget install --id=qBittorrent.qBittorrent -e  ;
 winget install --id=AgileBits.1Password -e  ;
 winget install --id=AgileBits.1Password.CLI -e  ;
-winget install --id=VladimirYakovlev.ElectronMail -e  ; # The official Proton Mail app is this but a giant pile of dogshit. Hopes of a native client dashed.
+winget install --id=VladimirYakovlev.ElectronMail -e  ;
 ###############################
 ### VPN and Networking Apps ###
 ###############################
 winget install --id=NordVPN.NordVPN -e  ;
 winget install --id=ProtonTechnologies.ProtonVPN -e  ;
 winget install --id=Fortinet.FortiClientVPN -e  ;
+###########################
+### Chocolatey Packages ###
+###########################
+choco upgrade chocolatey
+choco install ninja
 ############################
 ### Extra Setup Commands ###
 ############################
 wsl --set-default-version 2
-Install-Module posh-git # oh-my-posh font install # Get-PoshThemes
+Install-Module posh-git
+# Get-PoshThemes for more PS themes
