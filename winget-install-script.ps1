@@ -6,9 +6,9 @@ winget install --id=Microsoft.DotNet.DesktopRuntime.5 -e  ;
 winget install --id=Microsoft.DotNet.DesktopRuntime.6 -e  ;
 winget install --id=Microsoft.VCRedist.2012.x64 -e  ;
 winget install --id=Microsoft.VCRedist.2015+.x64 -e  ;
-winget install --id=Nvidia.GeForceExperience -e  ;
+winget install --id=Microsoft.VCRedist.2008.x64 -e  ;
+winget install --id=Microsoft.VCRedist.2005.x64 -e  ;
 winget install --id=Microsoft.EdgeWebView2Runtime -e  ;
-winget install --id=Chocolatey.Chocolatey -e  ;
 ###########################
 ### Games and Launchers ###
 ###########################
@@ -26,11 +26,12 @@ winget install --id=NexusMods.Vortex -e ;
 ### Dev Apps ###
 ################
 # IDE, LSPs, Compile Engines and Version Control Packages
+winget install --id=Chocolatey.Chocolatey -e  ;
 winget install --id=Microsoft.VisualStudioCode -e  ;
-winget install --id=Microsoft.VisualStudio.2022.BuildTools -e  ;
+winget install --id=Microsoft.VisualStudio.2022.BuildTools -e  ; ## Just works with MS editors, bunch of baboons
 winget install --id=Kitware.CMake -e  ;
 winget install --id=JetBrains.Toolbox -e  ;
-winget install --id=JanDeDobbeleer.OhMyPosh -s winget -e  ; # OhMyPosh PS themes
+winget install --id=JanDeDobbeleer.OhMyPosh -s winget -e  ;
 winget install --id=Microsoft.Git -e  ;
 ## PGP
 winget install --id=GnuPG.GnuPG -e  ;
@@ -97,6 +98,7 @@ winget install --id=xanderfrangos.twinkletray -e  ;
 winget install --id=BurntSushi.ripgrep.MSVC -e  ;
 winget install --id=sharkdp.bat -e  ;
 winget install --id=ajeetdsouza.zoxide -e ;
+winget install --id=eza-community.eza -e ;
 ########################
 ### Peripherals Apps ###
 ########################
