@@ -52,7 +52,8 @@ winget install --id=Docker.DockerDesktop -e  ;
 ##################
 ### Media Apps ###
 ##################
-winget install --id=9PFHDD62MXS1 -e --accept-package-agreements ; ## msstore Apple Music Preview
+winget install --id=9PFHDD62MXS1 -e --accept-package-agreements ; ## msstore Apple Music
+winget install --id=9NP83LWLPZ9K -e --accept-package-agreements ; ## msstore Apple Devices
 winget install --id=VideoLAN.VLC -e  ; ## Maybe a slow download
 winget install --id=ChatterinoTeam.Chatterino -e  ;
 ################
@@ -108,13 +109,17 @@ winget install --id=Logitech.GHUB -e  ;
 #####################
 ### Internet Apps ###
 #####################
-winget install --id=Proton.ProtonDrive -e  ;
+winget install --id=qBittorrent.qBittorrent -e  ;
 winget install --id=Brave.Brave -e  ;
 winget install --id=Mozilla.Firefox -e  ;
-winget install --id=qBittorrent.qBittorrent -e  ;
+winget install --id=TheBrowserCompany.Arc -e  ;
 winget install --id=AgileBits.1Password -e  ;
 winget install --id=AgileBits.1Password.CLI -e  ;
 winget install --id=VladimirYakovlev.ElectronMail -e  ;
+winget install --id=Proton.ProtonMail -e  ;
+winget install --id=Proton.ProtonMailBridge -e  ;
+winget install --id=Proton.ProtonPass -e  ;
+winget install --id=Proton.ProtonDrive -e  ;
 ###############################
 ### VPN and Networking Apps ###
 ###############################
