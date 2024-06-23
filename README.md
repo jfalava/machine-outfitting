@@ -22,7 +22,6 @@ You can either execute this script by:
 >If this is your first time using `winget` you, for the script to work, need to accept its terms of service.  
 >You can do so by executing any command before executing this PowerShell script, like `winget list`.
 
-
 1. A PowerShell terminal, navigating to the script folder with `cd \route\to\script\`, executing `Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process` to allow the execution of the install script until you close the terminal
 1. Right clicking the file and selecting `Execute with Powershell` if you have lighter restrictions on script execution (as administrator in a PowerShell terminal, execute `Set-ExecutionPolicy Unrestricted`).  
 
@@ -30,7 +29,7 @@ You can either execute this script by:
 
 You can take note of what apps you have installed that are available to be installed with winget using `winget list`.  
 
-[This tool](https://gist.github.com/jfalava/7ed352478721bcf10ff3da1cae6a6623) is a PowerShell script that creates another script by parsing your `winget list` output and creating a new script file with all the packages available to be installed with `winget` and executable as it is. Also included in this repo.  
+[This tool](https://gist.github.com/jfalava/7ed352478721bcf10ff3da1cae6a6623) is a PowerShell script that creates another script by parsing your `winget list` output and creating a new script file with all the packages available to be installed with `winget` and executable as it is.
 
 > [!IMPORTANT]
 > The generated file might have some incorrect lines (regex amirite) so do be careful and check the generated script before executing it.
