@@ -28,6 +28,15 @@ winget install --id=NexusMods.Vortex -e ;
 winget install --id=Microsoft.VisualStudioCode -e  ;
 dwinget install --id=JanDeDobbeleer.OhMyPosh -s winget -e  ;
 winget install --id=Microsoft.Git -e  ;
+#################
+### CLI Tools ###
+#################
+winget install --id=BurntSushi.ripgrep.MSVC -e  ;
+winget install --id=sharkdp.bat -e  ;
+winget install --id=ajeetdsouza.zoxide -e ;
+winget install --id=eza-community.eza -e ;
+winget install --id=gsass1.NTop -e ;
+winget install --id=nepnep.neofetch-win -e ;
 ################
 ### Sys Apps ###
 ################
@@ -70,6 +79,7 @@ winget install --id=OBSProject.OBSStudio -e  ;
 winget install --id=CrystalDewWorld.CrystalDiskInfo -e  ;
 winget install --id=Mp3tag.Mp3tag -e  ;
 winget install --id=Bin-Huang.Chatbox -e  ;
+winget install --id=KDE.Krita -e  ;
 ########################
 ### Windows QoL Apps ###
 ########################
