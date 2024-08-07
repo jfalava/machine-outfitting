@@ -1,6 +1,6 @@
 # Machine Outfitting
 
-The one stop for setting up my Windows 11 machine cuz Ninite is overrated and everyone loves a one click install amirite.
+The one stop for setting up my Windows 11 gaming machine cuz Ninite is overrated and everyone loves a one click install amirite.
 
 You need [winget](https://github.com/microsoft/winget-cli/) for the installation scripts to be recognized by your PowerShell terminal.  
 You can download it from the [Microsoft Store](https://www.microsoft.com/store/productId/9NBLGGH4NNS1?ocid=pdpshare).

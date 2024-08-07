@@ -26,30 +26,14 @@ winget install --id=NexusMods.Vortex -e ;
 ### Dev Apps ###
 ################
 winget install --id=Microsoft.VisualStudioCode -e  ;
-winget install --id=Microsoft.VisualStudio.2022.BuildTools -e  ;
-winget install --id=Kitware.CMake -e  ;
-winget install --id=JetBrains.Toolbox -e  ;
-winget install --id=JanDeDobbeleer.OhMyPosh -s winget -e  ;
+dwinget install --id=JanDeDobbeleer.OhMyPosh -s winget -e  ;
 winget install --id=Microsoft.Git -e  ;
-winget install --id=Neovim.Neovim -e ;
-git clone https://github.com/LazyVim/starter $env:LOCALAPPDATA\nvim
-Remove-Item $env:LOCALAPPDATA\nvim\.git -Recurse -Force
-## PGP
-winget install --id=GnuPG.GnuPG -e  ;
-winget install --id=GnuPG.Gpg4win -e  ;
-## Python
-winget install --id=Python.Python.3.10 -e  ;
-## NodeJS
-winget install --id=OpenJS.NodeJS -e  ;
 ################
 ### Sys Apps ###
 ################
 winget install --id=Microsoft.PowerShell -e  ;
 winget install --id=9P9TQF7MRM4R -e --accept-package-agreements ## msstore Windows Subsystem for Linux
 winget install --id=9P3395VX91NR -e --accept-package-agreements ## msstore Windows Subsystem for Android
-winget install --id=Debian.Debian -e --accept-package-agreements
-winget install --id=9PDXGNCFSCZV  -e --accept-package-agreements ## msstore Canonical Ubuntu LTS
-winget install --id=Docker.DockerDesktop -e  ;
 ##################
 ### Media Apps ###
 ##################
@@ -71,11 +55,6 @@ winget install --id=Mega.MEGASync -e  ; # Sometimes returns bad hash
 winget install --id=9PKTQ5699M62 -e --accept-package-agreements ; ## msstore iCloud
 winget install --id=9NC73MJWHSWW -e --accept-package-agreements ; ## msstore SyncFolder
 winget install --id=HaystackSoftwareLLC.Arq7 -e ;
-#########################
-### WorkFromHome Apps ###
-#########################
-winget install --id=Microsoft.Teams -e  ;
-winget install --id=SlackTechnologies.Slack -e ;
 #################
 ### Tool Apps ###
 #################
@@ -97,16 +76,6 @@ winget install --id=Bin-Huang.Chatbox -e  ;
 winget install --id=ModernFlyouts.ModernFlyouts -e  ;
 winget install --id=Microsoft.PowerToys -e  ;
 winget install --id=xanderfrangos.twinkletray -e  ;
-#################
-### CLI Tools ###
-#################
-winget install --id=BurntSushi.ripgrep.MSVC -e  ;
-winget install --id=sharkdp.bat -e  ;
-winget install --id=ajeetdsouza.zoxide -e ;
-winget install --id=eza-community.eza -e ;
-winget install --id=gsass1.NTop -e ;
-winget install --id=Chocolatey.Chocolatey -e  ;
-winget install --id=nepnep.neofetch-win -e ;
 ##################################
 ### Devices Companion Apps ###
 ##################################
@@ -122,23 +91,12 @@ winget install --id=Brave.Brave -e  ;
 winget install --id=Mozilla.Firefox -e  ;
 winget install --id=TheBrowserCompany.Arc -e  ;
 winget install --id=AgileBits.1Password -e  ;
-winget install --id=AgileBits.1Password.CLI -e  ;
-winget install --id=Proton.ProtonMail -e  ;
-winget install --id=Proton.ProtonMailBridge -e  ;
-winget install --id=Proton.ProtonPass -e  ;
-winget install --id=Proton.ProtonDrive -e  ;
-winget install --id=Mozilla.Thunderbird -e ;
 ###############################
 ### VPN and Networking Apps ###
 ###############################
 winget install --id=NordVPN.NordVPN -e  ;
 winget install --id=ProtonTechnologies.ProtonVPN -e  ;
 winget install --id=Fortinet.FortiClientVPN -e  ;
-###########################
-### Chocolatey Packages ###
-###########################
-choco upgrade chocolatey
-choco install ninja
 ############################
 ### Extra Setup Commands ###
 ############################
