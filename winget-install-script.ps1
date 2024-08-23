@@ -101,6 +101,7 @@ winget install --id=Brave.Brave -e  ;
 winget install --id=Mozilla.Firefox -e  ;
 winget install --id=TheBrowserCompany.Arc -e  ;
 winget install --id=AgileBits.1Password -e  ;
+winget install --id=ZenBrowser.Zen -e;
 ###############################
 ### VPN and Networking Apps ###
 ###############################
