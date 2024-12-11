@@ -17,13 +17,10 @@ winget install --id=Microsoft.VCLibs.Desktop.14 -e  ;
 winget install --id=Microsoft.EdgeWebView2Runtime -e  ;
 ###########################
 ### Games and Launchers ###
-###########################
-winget install --id=Ubisoft.Connect -e  ;
+###########################;
 winget install --id=Valve.Steam -e  ;
-winget install --id=Amazon.Games -e  ; # Sometimes returns bad hash, careful
 winget install --id=EpicGames.EpicGamesLauncher -e  ;
 winget install --id=GOG.Galaxy -e  ;
-winget install --id=ElectronicArts.EADesktop -e  ; # Sometimes returns bad hash, careful
 winget install --id=goatcorp.XIVLauncher -e  ;
 winget install --id=WeakAuras.WeakAurasCompanion -e ;
 winget install --id=WowUp.Wowup -e ;
